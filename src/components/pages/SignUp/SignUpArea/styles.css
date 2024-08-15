@@ -1,0 +1,18 @@
+.cadastro-area {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    width: 760px;
+    height: 661px;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 42px;
+
+    background-color: aqua;
+}
+
+.cadastro-area-titulo {
+    color: aliceblue;
+}
