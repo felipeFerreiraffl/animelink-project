@@ -1,0 +1,14 @@
+.imagem-escolha-area {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+    width: 420px;
+    height: 90px;
+    margin-top: 51px;
+    border-radius: 20px;
+    gap: 30px;
+
+    background-color: var(--daisy-bush);
+}

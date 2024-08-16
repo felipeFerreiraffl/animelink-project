@@ -1,0 +1,15 @@
+.imagem-perfil-area {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    margin-right: 35px;
+}
+
+.imagem-perfil-titulo {
+    margin-bottom: 32px;
+
+    color: var(--white);
+    font: var(--header-40);
+}
