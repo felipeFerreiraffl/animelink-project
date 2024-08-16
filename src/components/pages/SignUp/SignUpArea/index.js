@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css";
 import { CamposCadastro } from "./SignUpLabels";
+import { BotaoCadastro } from "./SignUpButton";
 
 export function AreaCadastro() {
     return(
@@ -10,6 +11,7 @@ export function AreaCadastro() {
             <CamposCadastro title={"Data de nascimento"} type={"date"} />
             <CamposCadastro title={"Usuário"} placeholder={"Usuário"} type={"text"} />
             <CamposCadastro title={"Senha"} placeholder={"Senha"} type={"password"} />
+            <BotaoCadastro />
         </div>
     );
 }

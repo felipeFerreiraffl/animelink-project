@@ -15,6 +15,7 @@
 
 .cadastro-area-titulo {
     border-bottom: solid 3px;
+    margin-bottom: 50px;
 
     color: var(--white);
     font: var(--header-48);
