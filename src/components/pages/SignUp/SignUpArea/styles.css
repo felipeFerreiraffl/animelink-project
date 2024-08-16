@@ -10,9 +10,12 @@
     margin-top: 30px;
     margin-left: 42px;
 
-    background-color: aqua;
+    background-color: var(--daisy-bush);
 }
 
 .cadastro-area-titulo {
-    color: aliceblue;
+    border-bottom: solid 3px;
+
+    color: var(--white);
+    font: var(--header-48);
 }
