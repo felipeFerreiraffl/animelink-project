@@ -3,6 +3,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    position: relative;
 
     width: 760px;
     height: 661px;
@@ -19,4 +20,16 @@
 
     color: var(--white);
     font: var(--header-48);
+}
+
+.cadastro-icone-fechar-area {
+    position: absolute;
+    top: 37px;
+    left: 46px;
+}
+
+.cadastro-icone-fechar {
+    background: var(--gradient-yellow);
+    padding: 7px;
+    border-radius: 50%;
 }
