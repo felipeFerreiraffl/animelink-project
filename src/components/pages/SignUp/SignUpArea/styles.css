@@ -33,4 +33,15 @@
     background: var(--gradient-yellow);
     padding: 7px;
     border-radius: 50%;
+
+    transition: 0.5s ease-in-out;
+    opacity: 1;
+}
+
+.cadastro-icone-fechar:hover {
+    width: 27px;
+}
+
+.cadastro-icone-fechar:active {
+    opacity: 50%;
 }

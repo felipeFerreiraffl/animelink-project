@@ -23,6 +23,9 @@
     border: none;
 
     background-color: var(--white);
+    font: var(--text-16);
+
+    transition: 0.5s ease-in-out;
 }
 
 .cadastro-input::placeholder {
@@ -42,7 +45,6 @@
 
     background-color: var(--white);
     font: var(--text-16);
-    color: var(--fog);
 }
 
 .cadastro-input[type="date"]::-webkit-calendar-picker-indicator {
