@@ -29,6 +29,7 @@
 }
 
 .cadastro-icone-fechar {
+    cursor: pointer;
     background: var(--gradient-yellow);
     padding: 7px;
     border-radius: 50%;

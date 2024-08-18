@@ -8,6 +8,8 @@
 }
 
 .cadastro-label {
+    margin-bottom: 5px;
+
     color: var(--white);
     font: var(--text-20);
 }
