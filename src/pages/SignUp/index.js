@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
-import { AreaCadastro } from "./SignUpArea";
-import { AreaImagemPerfil } from "./ChosePicArea";
+import { AreaCadastro } from "../../components/SignUp/SignUpArea";
+import { AreaImagemPerfil } from "../../components/SignUp/ChosePicArea";
 
 export default function Cadastro() {
     return(

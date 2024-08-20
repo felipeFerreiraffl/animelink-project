@@ -30,18 +30,17 @@
 
 .cadastro-icone-fechar {
     cursor: pointer;
-    background: var(--gradient-yellow);
-    padding: 7px;
-    border-radius: 50%;
+    font-size: 40px;
 
     transition: 0.5s ease-in-out;
-    opacity: 1;
 }
 
 .cadastro-icone-fechar:hover {
-    width: 27px;
+    color: var(--bright-sun);
+    font-size: 45px;
 }
 
 .cadastro-icone-fechar:active {
+    color: var(--bright-sun);
     opacity: 50%;
 }

@@ -1,5 +1,5 @@
 import './App.css';
-import Cadastro from './components/pages/SignUp';
+import Cadastro from './pages/SignUp';
 
 function App() {
   return (

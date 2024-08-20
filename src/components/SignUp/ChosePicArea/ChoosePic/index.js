@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import "./styles.css";
+import { RiArrowRightSLine, RiArrowLeftSLine } from "react-icons/ri";
 
-import esquerda from "../../../../assets/Icons/left-arrow.svg";
-import direita from "../../../../assets/Icons/right-arrow.svg";
 import blueLock from "../../../../assets/Images/ProfilePics/blue-lock-pic.png";
 import bnha from "../../../../assets/Images/ProfilePics/bnha-pic.png";
 import chainsaw from "../../../../assets/Images/ProfilePics/chainsaw-man-pic.png";
@@ -79,13 +78,13 @@ export function AreaEscolhaImagem({ setImgSelecionada }) {
 
     return (
         <div className="imagem-escolha-area">
-            <img className="imagem-escolha-antes" src={esquerda} alt="Esquerda" width={30} onClick={() => mudarImagem(-1)} />
+            <RiArrowLeftSLine className="imagem-escolha-antes" alt="Esquerda" onClick={() => mudarImagem(-1)} />
             <div className="imagem-escolha-slider">
                 {imgsMostradas().map((img, i) => {
                     return <img className="imagem-escolha-img" key={i} src={img} alt="Imagem de perfil" width={66} onClick={() => imgSelecionada(img)} /> 
                 })}
             </div>
-            <img className="imagem-escolha-depois" src={direita} alt="Esquerda" width={30} onClick={() => mudarImagem(1)} />
+            <RiArrowRightSLine className="imagem-escolha-depois" alt="Direita" onClick={() => mudarImagem(1)} />
         </div>
     );
 }

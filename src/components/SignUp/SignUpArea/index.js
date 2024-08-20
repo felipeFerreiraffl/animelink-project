@@ -2,13 +2,13 @@ import React from "react";
 import "./styles.css";
 import { CamposCadastro } from "./SignUpLabels";
 import { BotaoCadastro } from "./SignUpButton";
-import fecharCadastro from "../../../assets/Icons/close-button.svg";
+import { RiCloseCircleFill } from "react-icons/ri";
 
 export function AreaCadastro() {
     return(
         <div className="cadastro-area">
             <div className="cadastro-icone-fechar-area">
-                <img className="cadastro-icone-fechar" src={fecharCadastro} width={24} alt="Fechar" />
+                <RiCloseCircleFill className="cadastro-icone-fechar" alt="Fechar" />
             </div> 
             <h1 className="cadastro-area-titulo">Cadastro</h1>
             <CamposCadastro title={"Nome completo"} placeholder={"Seu nome"} type={"text"} />
